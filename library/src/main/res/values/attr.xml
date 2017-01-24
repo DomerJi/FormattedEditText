@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FormattedEditText">
+        <attr name="z_format" format="string"/>
+        <attr name="z_textSize" format="dimension"/>
+        <attr name="z_textColor" format="color"/>
+    </declare-styleable>
+</resources>
