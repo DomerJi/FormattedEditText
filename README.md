@@ -2,7 +2,7 @@
 [![](https://jitpack.io/v/zTrap/FormattedEditText.svg)](https://jitpack.io/#zTrap/FormattedEditText)
 ## How to get FormattedEditText library 
 #### With gradle:
----
+-
 Step 1. Add the **JitPack repository** to your **build.gradle** file.
 ```gradle
 allprojects {
@@ -18,8 +18,9 @@ dependencies {
    compile 'com.github.zTrap:FormattedEditText:0.0.1-beta1'
 }
 ```
+
 #### With maven:
----
+-
 Step 1. Add the **JitPack repository** to your **build file**.
 ```maven
 <repositories>
