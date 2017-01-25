@@ -49,3 +49,5 @@ app/src/test/
 app/src/androidTest/
 library/src/test/
 library/src/androidTest/
+gradle.xml
+vcs.xml

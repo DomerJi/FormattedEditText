@@ -192,7 +192,7 @@ public class FormattedEditText extends LinearLayout {
      *
      * @param size The scaled pixel size.
      */
-    public void setTextSize(int size){
+    public void setTextSize(float size){
         setTextSize(size, COMPLEX_UNIT_SP);
     }
     
@@ -203,7 +203,7 @@ public class FormattedEditText extends LinearLayout {
      * @param unit The desired dimension unit.
      * @param size The desired size in the given units.
      */
-    public void setTextSize(int size, @Units int unit){
+    public void setTextSize(float size, @Units int unit){
         textSize = size;
         textSizeUnit = unit;
         init();
@@ -220,6 +220,7 @@ public class FormattedEditText extends LinearLayout {
      * @return the size unit. See {@link
      * android.util.TypedValue} for the possible dimension units.
      */
+    @Units
     public int getTextSizeUnit() {
         return textSizeUnit;
     }
