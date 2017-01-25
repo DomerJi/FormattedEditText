@@ -104,20 +104,25 @@ public class FormattedEditText extends LinearLayout {
         editTexts = new ArrayList<>();
         addViews();
     
-        if (!editTexts.isEmpty() && eatFocusOnChange) {
-            getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-                @Override
-                public void onGlobalLayout() {
-                    editTexts.get(0).requestFocus();
-                    ViewTreeObserver observer = getViewTreeObserver();
-                    if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.JELLY_BEAN) {
-                        observer.removeGlobalOnLayoutListener(this);
-                    } else {
-                        observer.removeOnGlobalLayoutListener(this);
-                    }
-                }
-            });
+        if (eatFocusOnChange) {
+            requestFocusOnStart();
         }
+    }
+    
+    public void requestFocusOnStart() {
+        if (editTexts.isEmpty()) return;
+        getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            @Override
+            public void onGlobalLayout() {
+                editTexts.get(0).requestFocus();
+                ViewTreeObserver observer = getViewTreeObserver();
+                if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.JELLY_BEAN) {
+                    observer.removeGlobalOnLayoutListener(this);
+                } else {
+                    observer.removeOnGlobalLayoutListener(this);
+                }
+            }
+        });
     }
     
     /**
