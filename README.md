@@ -34,8 +34,8 @@ Step 2. Add the **dependency**
 ```maven
 <dependency>
   <groupId>com.github.zTrap</groupId>
-	<artifactId>FormattedEditText</artifactId>
-	<version>0.0.1-beta1</version>
+  <artifactId>FormattedEditText</artifactId>
+  <version>0.0.1-beta1</version>
 </dependency>
 ```
 ## Usage
