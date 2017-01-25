@@ -58,6 +58,8 @@ public class FormattedEditText extends LinearLayout {
     
     private String format = "+7 ({3}) {3}-{2}-{2}";
     
+    private boolean eatFocusOnChange = true;
+    
     @IntDef(flag = true, value = {COMPLEX_UNIT_PX, COMPLEX_UNIT_DIP, COMPLEX_UNIT_MM, COMPLEX_UNIT_SP, COMPLEX_UNIT_PT, COMPLEX_UNIT_IN})
     @Retention(RetentionPolicy.SOURCE)
     @RestrictTo(RestrictTo.Scope.LIBRARY)
@@ -101,8 +103,8 @@ public class FormattedEditText extends LinearLayout {
         textViews = new ArrayList<>();
         editTexts = new ArrayList<>();
         addViews();
-
-        if (!editTexts.isEmpty()) {
+    
+        if (!editTexts.isEmpty() && eatFocusOnChange) {
             getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
                 @Override
                 public void onGlobalLayout() {
@@ -284,6 +286,24 @@ public class FormattedEditText extends LinearLayout {
      */
     public List<EditText> getEditTexts() {
         return editTexts;
+    }
+    
+    /**
+     * Gets the current status of "eating" focus to self whenever layout properties have been changed
+     * */
+    public boolean isEatFocusOnChange() {
+        return eatFocusOnChange;
+    }
+    
+    /**
+     * Sets status of "eating" focus to self whenever layout properties have been changed.
+     * If true FormattedTextView will try to request focus on his child (EditText) if he exist,
+     * if false FormattedTextView never will try to request focus on his child (EditText) if he exist.
+     *
+     * @param eatFocusOnChange status of "eating" focus to self
+     * */
+    public void setEatFocusOnChange(boolean eatFocusOnChange) {
+        this.eatFocusOnChange = eatFocusOnChange;
     }
     
     private void addViews() {
