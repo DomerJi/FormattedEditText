@@ -1,5 +1,8 @@
 # Formatted EditText
 [![](https://jitpack.io/v/zTrap/FormattedEditText.svg)](https://jitpack.io/#zTrap/FormattedEditText)
+-
+<img src="/art/Screenshot_1.png" width="300">
+-
 ## How to get FormattedEditText library 
 #### With gradle:
 -
