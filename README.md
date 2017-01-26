@@ -15,7 +15,7 @@ allprojects {
 Step 2. Add the **dependency**
 ```gradle
 dependencies {
-   compile 'com.github.zTrap:FormattedEditText:0.0.1-beta1'
+   compile 'com.github.zTrap:FormattedEditText:0.0.1-beta2'
 }
 ```
 
