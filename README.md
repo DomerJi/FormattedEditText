@@ -1,5 +1,5 @@
 # Formatted EditText
-[![](https://jitpack.io/v/zTrap/FormattedEditText.svg)](https://jitpack.io/#zTrap/FormattedEditText)
+[![](https://jitpack.io/v/ru.ztrap/FormattedEditText.svg)](https://jitpack.io/#ru.ztrap/FormattedEditText)
 -
 <img src="/art/Screenshot_1.png" width="300">
 -
@@ -18,7 +18,7 @@ allprojects {
 Step 2. Add the **dependency**
 ```gradle
 dependencies {
-   compile 'com.github.zTrap:FormattedEditText:0.0.1-beta2'
+   compile 'ru.ztrap:FormattedEditText:0.0.1-beta2'
 }
 ```
 
@@ -36,9 +36,9 @@ Step 1. Add the **JitPack repository** to your **build file**.
 Step 2. Add the **dependency**
 ```maven
 <dependency>
-  <groupId>com.github.zTrap</groupId>
+  <groupId>ru.ztrap</groupId>
   <artifactId>FormattedEditText</artifactId>
-  <version>0.0.1-beta1</version>
+  <version>0.0.1-beta2</version>
 </dependency>
 ```
 ## Usage
