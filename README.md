@@ -51,7 +51,7 @@ Step 2. Add the **dependency**
     app:z_textColor="@android:color/black"
     app:z_textSize="18sp"/>
 ```
-*how to use this format see in Javadocs [FormattedEditText](https://jitpack.io/com/github/zTrap/FormattedEditText/0.0.1-beta1/javadoc/ru/ztrap/views/FormattedEditText.html).[setFormat()](https://jitpack.io/com/github/zTrap/FormattedEditText/0.0.1-beta1/javadoc/ru/ztrap/views/FormattedEditText.html#setFormat-java.lang.String-)
+*how to use this format see in Javadocs [FormattedEditText](https://jitpack.io/ru/ztrap/FormattedEditText/0.0.1-beta2/javadoc/ru/ztrap/views/FormattedEditText.html).[setFormat()](https://jitpack.io/ru/ztrap/FormattedEditText/0.0.1-beta2/javadoc/ru/ztrap/views/FormattedEditText.html#setFormat-java.lang.String-)
 
 **java**
 ```java
