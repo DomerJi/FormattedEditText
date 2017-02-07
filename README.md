@@ -1,42 +1,23 @@
 # Formatted EditText
-[![](https://jitpack.io/v/ru.ztrap/FormattedEditText.svg)](https://jitpack.io/#ru.ztrap/FormattedEditText)
+[ ![Download](https://api.bintray.com/packages/ztrap-llc/maven/FormattedEditText/images/download.svg?version=0.0.1-beta2) ](https://bintray.com/ztrap-llc/maven/FormattedEditText/0.0.1-beta2/link)
 -
 <img src="/art/Screenshot_1.png" width="300">
 -
+
 ## How to get FormattedEditText library 
 #### With gradle:
 -
-Step 1. Add the **JitPack repository** to your **build.gradle** file.
-```gradle
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
-}
-```
-Step 2. Add the **dependency**
 ```gradle
 dependencies {
-   compile 'ru.ztrap:FormattedEditText:0.0.1-beta2'
+   compile 'ru.ztrap.views:FormattedEditText:0.0.1-beta2'
 }
 ```
 
 #### With maven:
 -
-Step 1. Add the **JitPack repository** to your **build file**.
-```maven
-<repositories>
-	<repository>
-	  <id>jitpack.io</id>
-	  <url>https://jitpack.io</url>
-	</repository>
-</repositories>
-```  
-Step 2. Add the **dependency**
 ```maven
 <dependency>
-  <groupId>ru.ztrap</groupId>
+  <groupId>ru.ztrap.views</groupId>
   <artifactId>FormattedEditText</artifactId>
   <version>0.0.1-beta2</version>
 </dependency>
@@ -51,7 +32,7 @@ Step 2. Add the **dependency**
     app:z_textColor="@android:color/black"
     app:z_textSize="18sp"/>
 ```
-*how to use this format see in Javadocs [FormattedEditText](https://jitpack.io/ru/ztrap/FormattedEditText/0.0.1-beta2/javadoc/ru/ztrap/views/FormattedEditText.html).[setFormat()](https://jitpack.io/ru/ztrap/FormattedEditText/0.0.1-beta2/javadoc/ru/ztrap/views/FormattedEditText.html#setFormat-java.lang.String-)
+*how to use this format see in Javadocs
 
 **java**
 ```java
