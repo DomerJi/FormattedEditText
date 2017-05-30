@@ -1,20 +1,16 @@
 # Formatted EditText
 [ ![Download](https://api.bintray.com/packages/ztrap-llc/maven/FormattedEditText/images/download.svg?version=0.0.1-beta2) ](https://bintray.com/ztrap-llc/maven/FormattedEditText/0.0.1-beta2/link)
--
+
 <img src="/art/Screenshot_1.png" width="300">
--
 
 ## How to get FormattedEditText library 
-#### With gradle:
--
+gradle
 ```gradle
 dependencies {
    compile 'ru.ztrap.views:FormattedEditText:0.0.1-beta2'
 }
 ```
-
-#### With maven:
--
+maven
 ```maven
 <dependency>
   <groupId>ru.ztrap.views</groupId>
@@ -49,7 +45,7 @@ fet.setWatcher(new FormattedEditText.zWatcher() {
       });
 ```
 
-#License
+## License
 
     Copyright 2017 zTrap LLC
 
