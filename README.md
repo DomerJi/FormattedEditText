@@ -1,5 +1,6 @@
 # Formatted EditText
-[ ![Download](https://api.bintray.com/packages/ztrap-llc/maven/FormattedEditText/images/download.svg?version=0.0.1-beta2) ](https://bintray.com/ztrap-llc/maven/FormattedEditText/0.0.1-beta2/link)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/ru.ztrap.views/FormattedEditText/badge.svg)](https://maven-badges.herokuapp.com/maven-central/ru.ztrap.views/FormattedEditText)
+[![Javadocs](http://www.javadoc.io/badge/ru.ztrap.views/FormattedEditText.svg?color=brightgreen)](http://www.javadoc.io/doc/ru.ztrap.views/FormattedEditText)
 
 <img src="/art/Screenshot_1.png" width="300">
 
